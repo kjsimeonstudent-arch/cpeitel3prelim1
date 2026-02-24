@@ -2,17 +2,29 @@ import "./App.css";
 
 export default function App() {
   return (
-    <div className="container">
-      <h1 className="title">Ken-zhin Simeon</h1>
-      <div className="grid">
-        <div className="box box1">1</div>
-        <div className="box box2">2</div>
-        <div className="box box3">3</div>
-        <div className="box box4">4</div>
-        <div className="box box5">5</div>
-        <div className="box box6">6</div>
-        <div className="box box7">7</div>
-        <div className="box box8">8</div>
+    <div className="page">
+      <h1 className="name">Ken-zhin Simeon</h1>
+
+      <div className="outer">
+        <div className="left">
+          <div className="topLeft">
+            <div className="cell">1</div>
+            <div className="cell">2</div>
+          </div>
+
+          <div className="cell">5</div>
+          <div className="cell">6</div>
+        </div>
+
+        <div className="right">
+          <div className="cell">3</div>
+          <div className="cell">4</div>
+
+          <div className="bottomRight">
+            <div className="cell">7</div>
+            <div className="cell">8</div>
+          </div>
+        </div>
       </div>
     </div>
   );
