@@ -1,11 +1,9 @@
-import React from "react";
-import "./GridLayout.css";
+import "./App.css";
 
-function GridLayout() {
+export default function App() {
   return (
     <div className="container">
       <h1 className="title">Ken-zhin Simeon</h1>
-
       <div className="grid">
         <div className="box box1">1</div>
         <div className="box box2">2</div>
@@ -19,5 +17,3 @@ function GridLayout() {
     </div>
   );
 }
-
-export default GridLayout;
