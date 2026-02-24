@@ -7,6 +7,12 @@ body {
   color: #111;
 }
 
+:root {
+  --blue: #1e73d8;
+  --fill: #d8ecff;
+  --line: 6px;
+}
+
 .page { padding: 24px; }
 
 .name {
