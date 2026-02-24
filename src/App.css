@@ -19,6 +19,7 @@ body {
   margin: 0 0 16px;
   font-size: 40px;
   font-weight: 800;
+  display:flex;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
